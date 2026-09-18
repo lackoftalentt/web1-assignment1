@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Assignment 1: Web Technologies - Astana IT University | Authors: Beibarys and Dastan -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Support &amp; Concierge Team — Royal Jackpot</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="navbar">
+            <a class="logo" href="../index.html">
+                <img src="../images/logo.webp" alt="Royal Jackpot Casino Logo" class="logo-image">
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="../index.html#features">Why Us</a></li>
+                <li><a href="vip.html">VIP Club</a></li>
+                <li><a class="active" href="contact.html">Support</a></li>
+            </ul>
+
+            <a class="nav-button" href="vip.html">Join VIP</a>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        <!-- Обязательный блок "About Team Members" с круглой картинкой (Step 2 и Step 12 ТЗ) -->
+        <section class="section-block">
+            <p class="eyebrow">DEDICATED CONCIERGE</p>
+            <h1>Customer Concierge &amp; Team</h1>
+            <p>Our dedicated team provides 24/7 high-roller concierge services, account management, and VIP support.</p>
+
+            <div class="profile-card">
+                <img src="../icons/crown.png" alt="VIP Concierge Profile" class="avatar-circular">
+                <div class="profile-info">
+                    <h3>Beibarys — Concierge Lead &amp; Developer</h3>
+                    <p><strong>Team Members:</strong> Beibarys &amp; Dastan</p>
+                    <p>Astana IT University | Web Technologies Assignment 1</p>
+                    <p>Specializing in interactive client support, form validation, and accessible casino user
+                        interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обязательная форма со всеми требуемыми полями (Step 5 ТЗ) -->
+        <section class="section-block">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Contact Club Host</h2>
+            <p>Have a question or need special accommodation? Fill out the confidential form below.</p>
+
+            <form id="contact-form" class="styled-form" action="#" method="get">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" id="email-address" name="email" placeholder="example@casino.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry-type">Inquiry Subject</label>
+                    <select id="inquiry-type" name="inquiry">
+                        <option value="vip">VIP Status Upgrade</option>
+                        <option value="deposit">Deposit &amp; Withdrawal Assistance</option>
+                        <option value="technical">Game Feedback</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="theme-color">Preferred Accent Color (Theme Customization)</label>
+                    <input type="color" id="theme-color" name="favcolor" value="#d4af37">
+                </div>
+
+                <div class="form-group">
+                    <label for="user-message">Your Message</label>
+                    <textarea id="user-message" name="message" rows="5" placeholder="Type your message here..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Обязательный футер с именами (Submission Rules) -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img class="logo-image" src="../images/logo.webp" alt="Casino Las Vegas Logo">
+
+            <div class="footer-members">
+                <p>Team Members</p>
+                <ul>
+                    <li>Beibarys</li>
+                    <li>Dastan</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

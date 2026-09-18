@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Assignment 1: Web Technologies - Astana IT University | Authors: Beibarys and Dastan -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Royal Jackpot — VIP Club &amp; High Roller Tiers</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header id="main-header">
+		<nav class="navbar">
+			<a class="logo" href="../index.html">
+				<img src="../images/logo.webp" alt="Royal Jackpot Casino Logo" class="logo-image">
+			</a>
+
+			<ul class="nav-menu">
+				<li>
+					<a href="../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="games.html">Games</a>
+				</li>
+
+				<li>
+					<a href="../index.html#features">Why Us</a>
+				</li>
+
+				<li>
+					<a class="active" href="vip.html">
+						VIP Club
+					</a>
+				</li>
+
+				<li>
+					<a href="contact.html">Support</a>
+				</li>
+			</ul>
+
+			<a class="nav-button" href="#vip-form">
+				Join VIP
+			</a>
+		</nav>
+	</header>
+
+	<main>
+		<!-- VIP HERO -->
+
+		<section class="vip-hero">
+			<div class="vip-hero-content">
+				<p class="eyebrow">THE ROYAL EXPERIENCE</p>
+
+				<h1>
+					Welcome to the
+					<span>VIP Club</span>
+				</h1>
+
+				<p class="vip-hero-description">
+					Exclusive access, private experiences and a level of service
+					reserved for Royal guests.
+				</p>
+
+				<a class="btn btn-primary" href="#vip-form">
+					Become a Member
+				</a>
+			</div>
+
+			<div class="vip-profile">
+				<img src="../images/highroller.webp" alt="Royal Jackpot VIP Host &amp; Developer"
+					class="vip-profile-image">
+
+				<div>
+					<p class="vip-profile-label">VIP HOST &amp; DEVELOPER</p>
+
+					<h3>Dastan — Team Lead</h3>
+
+					<p>Front-End Engineering Student at Astana IT University. Specializing in high-roller UI
+						architecture and VIP member experiences.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- VIP BENEFITS -->
+
+		<section class="section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">VIP PRIVILEGES</p>
+
+					<h2>
+						Members Get
+						<span>More</span>
+					</h2>
+				</div>
+
+				<p class="section-description">
+					Our VIP program is designed around exclusivity, comfort and premium
+					service.
+				</p>
+			</div>
+
+			<div class="vip-benefits">
+				<div class="benefit-item">
+					<span class="benefit-number">01</span>
+
+					<h3>Private Lounge</h3>
+
+					<p>Access to an exclusive lounge for Royal members.</p>
+				</div>
+
+				<div class="benefit-item">
+					<span class="benefit-number">02</span>
+
+					<h3>Personal Concierge</h3>
+
+					<p>Dedicated assistance for every part of your Royal experience.</p>
+				</div>
+
+				<div class="benefit-item">
+					<span class="benefit-number">03</span>
+
+					<h3>Exclusive Events</h3>
+
+					<p>Invitations to private events and members-only experiences.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- VIP LEVELS -->
+
+		<section class="section dark-section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">MEMBERSHIP</p>
+
+					<h2>
+						Choose Your
+						<span>Level</span>
+					</h2>
+				</div>
+			</div>
+
+			<div class="vip-table-wrapper">
+				<table class="vip-table">
+					<thead>
+						<tr>
+							<th>Level</th>
+							<th>Access</th>
+							<th>Benefits</th>
+							<th>Support</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>Silver</td>
+							<td>Standard</td>
+							<td>Daily Rewards</td>
+							<td>Online</td>
+						</tr>
+
+						<tr>
+							<td>Gold</td>
+							<td>Priority</td>
+							<td>Exclusive Events</td>
+							<td>Priority</td>
+						</tr>
+
+						<tr>
+							<td>Platinum</td>
+							<td>Private</td>
+							<td>Luxury Benefits</td>
+							<td>Personal</td>
+						</tr>
+
+						<tr>
+							<td>Diamond</td>
+							<td>Unlimited</td>
+							<td>Full Royal Access</td>
+							<td>Concierge</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<!-- MEMBERSHIP FORM -->
+
+		<section class="section">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">APPLICATION</p>
+
+					<h2>
+						Join the
+						<span>Royal Club</span>
+					</h2>
+				</div>
+
+				<p class="section-description">
+					Complete the application below to request your VIP membership.
+				</p>
+			</div>
+
+			<form id="vip-form" class="vip-form">
+				<div class="form-group">
+					<label for="name">Full Name</label>
+
+					<input type="text" id="name" name="name" placeholder="Enter your name" required>
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email Address</label>
+
+					<input type="email" id="email" name="email" placeholder="Enter your email" required>
+				</div>
+
+				<div class="form-group">
+					<label for="membership">Membership Level</label>
+
+					<select id="membership" name="membership" required>
+						<option value="">Select your level</option>
+
+						<option value="silver">Silver</option>
+
+						<option value="gold">Gold</option>
+
+						<option value="platinum">Platinum</option>
+
+						<option value="diamond">Diamond</option>
+					</select>
+				</div>
+
+				<div class="form-group form-group-full">
+					<label for="message">Message</label>
+
+					<textarea id="message" name="message" rows="6" placeholder="Tell us about yourself..."
+						required></textarea>
+				</div>
+
+				<div class="form-submit">
+					<button type="submit" class="btn btn-primary">
+						Submit Application
+					</button>
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-content">
+			<img class="logo-image" src="../images/logo.webp" alt="Casino Las Vegas Logo">
+
+			<div class="footer-members">
+				<p>Team Members</p>
+
+				<ul>
+					<li>Beibarys</li>
+					<li>Dastan</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
